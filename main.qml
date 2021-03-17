@@ -10,9 +10,15 @@ ApplicationWindow
 
   title: qsTr( "Hello World" )
 
-  MyList
-  {
-    id: myList
+  Column {
+
     anchors.fill: parent
+
+    MyList
+    {
+      id: myList
+
+      anchors.fill: parent
+    }
   }
 }

@@ -1,8 +1,9 @@
 import QtQuick 2.4
+import QtQuick.Controls 2.12
 
 MyListForm
 {
-  delegate: Text { text: name }
+  delegate: Label { text: name }
 
   Component.onCompleted:
   {
